@@ -396,6 +396,36 @@ Main content
   font-family: 'Palanquin Dark', sans-serif;
   line-height: 30px;
 }
+@media screen and (max-width: 928px){
+  #fond{
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://i.pinimg.com/564x/9d/ae/e9/9daee9b99c652930fb45f287a7bdf175.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: center;
+    line-height: 45px;
+  }
+  .welcome h1{
+    color: rgb(0, 0, 0);  
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Palanquin Dark', sans-serif;
+    padding-bottom: 15px;
+    line-height: 60px;
+    text-shadow: rgb(214, 214, 214) 2px 2px 1px;
+  }
+  .welcome p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-shadow: rgb(214, 214, 214) 2px 2px 1px;
+    line-height: 30px;
+  }
+}
+
 /* -------------------------------- 
 
 Productos
@@ -460,6 +490,11 @@ Productos
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .card{
+    border: 1px solid rgb(238, 237, 237);
+    margin: 5px;
+    padding: 10px;
   }
 }
 /* -------------------------------- 
@@ -528,7 +563,46 @@ color: rgb(170, 170, 170);
 .copyright a{
   color: rgb(4, 61, 126);
 }
+@media screen and (max-width: 928px){
+  .mini-footer{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-column-gap: 10%;
+    justify-items: center;
+  }
+  .footer-logo img{
+    padding-bottom: 5px;
+  }
+  .informacion{
+    padding-bottom: 15px;
+  }
+  .informacion .title{
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: rgb(223, 221, 221);
+  }
+  .footer-logo p{
+    margin-bottom: 20px;
+  }
+  .redes h3{
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .redes a{
+    margin: 0px;
+   margin-right: 40px;
+  }
+  .redes a img{
+    width: 10%;
+  }
 
+}
 
 
 
